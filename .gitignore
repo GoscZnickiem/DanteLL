@@ -28,6 +28,8 @@
 build/
 out/
 cmake-build/
+CMakeFiles/
+CMakeCache.txt
 
 CMakeLists.txt.user
 CMakeUserPresets.json
