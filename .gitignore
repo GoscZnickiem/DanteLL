@@ -30,6 +30,7 @@ out/
 cmake-build/
 
 CMakeLists.txt.user
+CMakeUserPresets.json
 
 .vs/
 .idea/
@@ -42,3 +43,5 @@ CMakeLists.txt.user
 *~
 _ReSharper*
 *.log
+
+.clangd
