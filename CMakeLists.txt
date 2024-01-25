@@ -26,6 +26,9 @@ if (POLICY CMP0077)
 endif()
 
 
+### TEMP 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+###
 
 
 add_subdirectory(src)
