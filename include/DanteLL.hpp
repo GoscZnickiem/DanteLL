@@ -4,6 +4,7 @@
 #define GZN_DANTELL_H
 
 #include <string>
+#include <cstdint>
 
 
 namespace DLog {
