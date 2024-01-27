@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.0...3.27 FATAL_ERROR)
 project(
 
 		DanteLL 
-		VERSION 0.0.1
+		VERSION 0.0.2
 		DESCRIPTION "Dante Logging Library"
 		LANGUAGES CXX 
 
