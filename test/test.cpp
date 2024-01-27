@@ -2,7 +2,7 @@
 
 int main () {
 
-	int b;
+	int b = 2;
 
 	DLog::test();
 
