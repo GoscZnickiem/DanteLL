@@ -1,5 +1,3 @@
-# Source: https://github.com/cpp-best-practices/cmake_template
-
 function(
 		set_project_warnings
 		project_name
