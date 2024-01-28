@@ -20,7 +20,7 @@ log(Level::ENTRY, message);
 }
 
 void Logger::log(Level logLevel, const std::string& message) {
-	std::lock_guard<std::mutex> lock(m_mutex);
+	const std::lock_guard<std::mutex> lock(m_mutex);
 
 	if(logLevel >= m_level) {
 		std::cout << "[" << getLevelName(logLevel) << "] (" << getCurrentTimestamp() << ") " << message << "\n";
@@ -44,7 +44,7 @@ std::string Logger::getLevelName(Level level) {
 }
 
 std::string Logger::getCurrentTimestamp() {
-	std::time_t now = std::time(nullptr);
+	const std::time_t now = std::time(nullptr);
 	std::tm* local = std::localtime(&now);
 
 	std::stringstream stream;
